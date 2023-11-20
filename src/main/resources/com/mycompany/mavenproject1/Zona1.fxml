@@ -1,11 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.mavenproject1.Zona1Controller">
-    
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #010A7B;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="com.mycompany.mavenproject1.Zona1Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" opacity="0.22" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../DSC_0730-scaled.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="537.0" layoutY="343.0" mnemonicParsing="false" style="-fx-background-color: #7CFC00; -fx-border-width: 5px 5px 5px 5px; -fx-border-color: ;" text="Ingresar" />
+      <Button layoutX="537.0" layoutY="369.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="59.0" style="-fx-background-color: #B22222;" text="Atras" />
+      <Button layoutX="40.0" layoutY="74.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="70.0" style="-fx-background-color: #7FFF00; -fx-border-color: #F0FFFF; -fx-border-width: 5px 5px 5px 5px;" text="P1">
+         <font>
+            <Font name="Nirmala UI Semilight" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="282.0" layoutY="24.0" prefHeight="49.0" prefWidth="70.0" text="ZONA 1" textAlignment="CENTER" textFill="#fcf6f6" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font name="Nirmala UI" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="40.0" layoutY="150.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="70.0" style="-fx-background-color: #7FFF00; -fx-border-color: #F0FFFF; -fx-border-width: 5px 5px 5px 5px;" text="P2">
+         <font>
+            <Font name="Nirmala UI Semilight" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="40.0" layoutY="224.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="70.0" style="-fx-background-color: #7FFF00; -fx-border-color: #F0FFFF; -fx-border-width: 5px 5px 5px 5px;" text="P3">
+         <font>
+            <Font name="Nirmala UI Semilight" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="125.0" layoutY="75.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="70.0" style="-fx-background-color: #7FFF00; -fx-border-color: #F0FFFF; -fx-border-width: 5px 5px 5px 5px;" text="P4">
+         <font>
+            <Font name="Nirmala UI Semilight" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="125.0" layoutY="151.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="70.0" style="-fx-background-color: #7FFF00; -fx-border-color: #F0FFFF; -fx-border-width: 5px 5px 5px 5px;" text="P5">
+         <font>
+            <Font name="Nirmala UI Semilight" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="125.0" layoutY="225.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="70.0" style="-fx-background-color: #7FFF00; -fx-border-color: #F0FFFF; -fx-border-width: 5px 5px 5px 5px;" text="P6">
+         <font>
+            <Font name="Nirmala UI Semilight" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="424.0" layoutY="74.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="70.0" style="-fx-background-color: #7FFF00; -fx-border-color: #F0FFFF; -fx-border-width: 5px 5px 5px 5px;" text="P13">
+         <font>
+            <Font name="Nirmala UI Semilight" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="424.0" layoutY="150.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="70.0" style="-fx-background-color: #7FFF00; -fx-border-color: #F0FFFF; -fx-border-width: 5px 5px 5px 5px;" text="P14">
+         <font>
+            <Font name="Nirmala UI Semilight" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="424.0" layoutY="224.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="70.0" style="-fx-background-color: #7FFF00; -fx-border-color: #F0FFFF; -fx-border-width: 5px 5px 5px 5px;" text="P15">
+         <font>
+            <Font name="Nirmala UI Semilight" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="509.0" layoutY="75.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="70.0" style="-fx-background-color: #7FFF00; -fx-border-color: #F0FFFF; -fx-border-width: 5px 5px 5px 5px;" text="P16">
+         <font>
+            <Font name="Nirmala UI Semilight" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="509.0" layoutY="151.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="70.0" style="-fx-background-color: #7FFF00; -fx-border-color: #F0FFFF; -fx-border-width: 5px 5px 5px 5px;" text="P17">
+         <font>
+            <Font name="Nirmala UI Semilight" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="509.0" layoutY="225.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="70.0" style="-fx-background-color: #7FFF00; -fx-border-color: #F0FFFF; -fx-border-width: 5px 5px 5px 5px;" text="P18">
+         <font>
+            <Font name="Nirmala UI Semilight" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="232.0" layoutY="75.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="70.0" style="-fx-background-color: #7FFF00; -fx-border-color: #F0FFFF; -fx-border-width: 5px 5px 5px 5px;" text="P7">
+         <font>
+            <Font name="Nirmala UI Semilight" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="232.0" layoutY="151.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="70.0" style="-fx-background-color: #7FFF00; -fx-border-color: #F0FFFF; -fx-border-width: 5px 5px 5px 5px;" text="P8">
+         <font>
+            <Font name="Nirmala UI Semilight" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="232.0" layoutY="225.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="70.0" style="-fx-background-color: #7FFF00; -fx-border-color: #F0FFFF; -fx-border-width: 5px 5px 5px 5px;" text="P9">
+         <font>
+            <Font name="Nirmala UI Semilight" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="317.0" layoutY="76.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="70.0" style="-fx-background-color: #7FFF00; -fx-border-color: #F0FFFF; -fx-border-width: 5px 5px 5px 5px;" text="P10">
+         <font>
+            <Font name="Nirmala UI Semilight" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="317.0" layoutY="152.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="70.0" style="-fx-background-color: #7FFF00; -fx-border-color: #F0FFFF; -fx-border-width: 5px 5px 5px 5px;" text="P11">
+         <font>
+            <Font name="Nirmala UI Semilight" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="317.0" layoutY="226.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="70.0" style="-fx-background-color: #7FFF00; -fx-border-color: #F0FFFF; -fx-border-width: 5px 5px 5px 5px;" text="P12">
+         <font>
+            <Font name="Nirmala UI Semilight" size="18.0" />
+         </font>
+      </Button>
+   </children>
 </AnchorPane>
