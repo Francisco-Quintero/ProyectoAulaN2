@@ -8,6 +8,7 @@ import java.time.LocalTime;
  * @author franc
  */
 public class Empleado extends Persona {
+    
     String cargo;
     
 /*
@@ -16,8 +17,8 @@ public class Empleado extends Persona {
     }
 */
 
-    public Empleado(String id, String nombre, String cedula) {
-        super(id, nombre, cedula);
+    public Empleado(String id, String nombre, String cedula, boolean carnet, String rol, LocalTime horaEntrada, LocalTime horaSalida) {
+        super(id, nombre, cedula, carnet, rol, horaEntrada, horaSalida);
     }
 
     

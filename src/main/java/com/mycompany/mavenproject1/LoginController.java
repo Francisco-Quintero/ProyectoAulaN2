@@ -10,6 +10,8 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
 
 /**
  * FXML Controller class
@@ -19,7 +21,12 @@ import javafx.scene.control.Button;
 public class LoginController implements Initializable {
 
     @FXML
-    private Button primaryButton;
+    private TextField txtUsername;
+
+    @FXML
+    private PasswordField txtPassword;
+    @FXML
+    private Button btnLogin;
 
     /**
      * Initializes the controller class.

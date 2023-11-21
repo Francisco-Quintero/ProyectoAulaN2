@@ -12,8 +12,8 @@ import java.time.LocalTime;
  */
 public class Operativo extends Empleado{
 
-    public Operativo(String id, String nombre, String cedula) {
-        super(id, nombre, cedula);
+    public Operativo(String id, String nombre, String cedula, boolean carnet, String rol, LocalTime horaEntrada, LocalTime horaSalida) {
+        super(id, nombre, cedula, carnet, rol, horaEntrada, horaSalida);
     }
 
     @Override

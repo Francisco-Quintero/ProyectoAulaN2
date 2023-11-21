@@ -15,8 +15,8 @@ public class Estudiante extends Persona {
    String semestre;
    String programa;
 
-    public Estudiante(String id) {
-        super(id);
+    public Estudiante(String id, String nombre, String cedula, boolean carnet, String rol, LocalTime horaEntrada, LocalTime horaSalida) {
+        super(id, nombre, cedula, carnet, rol, horaEntrada, horaSalida);
     }
 
     public String getSemestre() {

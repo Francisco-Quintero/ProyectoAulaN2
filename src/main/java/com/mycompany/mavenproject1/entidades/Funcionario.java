@@ -10,69 +10,64 @@ import java.time.LocalTime;
  *
  * @author LUIS MANUEL
  */
-public class Funcionario extends Empleado{
-    
- public void Funcionario(){
-     
- }   
+public class Funcionario extends Empleado {
 
-    public Funcionario(String id, String nombre, String cedula) {
-        super(id, nombre, cedula);
+    public void Funcionario() {
+
     }
 
- @Override
+    public Funcionario(String id, String nombre, String cedula, boolean carnet, String rol, LocalTime horaEntrada, LocalTime horaSalida) {
+        super(id, nombre, cedula, carnet, rol, horaEntrada, horaSalida);
+    }
+
+    @Override
     public String getCargo() {
         return cargo;
     }
 
- @Override
+    @Override
     public void setCargo(String cargo) {
         this.cargo = cargo;
     }
 
- @Override
+    @Override
     public String getId() {
         return id;
     }
 
- @Override
+    @Override
     public void setId(String id) {
         this.id = id;
     }
 
- @Override
+    @Override
     public String getNombre() {
         return nombre;
     }
 
- @Override
+    @Override
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
- @Override
+    @Override
     public String getCedula() {
         return cedula;
     }
 
- @Override
+    @Override
     public void setCedula(String cedula) {
         this.cedula = cedula;
     }
 
     @Override
     public void entrada(LocalTime horaEntrada) {
-        super.entrada(horaEntrada); 
+        super.entrada(horaEntrada);
     }
 
     @Override
     public void salida(LocalTime horaSalida) {
-        super.salida(horaSalida); 
+        super.salida(horaSalida);
     }
-    
-    
-    
-    
-    
-    
+
 }

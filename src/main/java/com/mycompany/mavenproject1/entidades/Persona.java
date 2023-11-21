@@ -12,7 +12,7 @@ import java.time.LocalTime;
  */
 public abstract class Persona {
     
-    String id;
+    String id, usename, password;
     String nombre;
     String cedula;
     boolean carnet;
@@ -20,29 +20,33 @@ public abstract class Persona {
     LocalTime horaEntrada;
     LocalTime horaSalida;
 
-    public Persona(String id) {
-        this.id = id;
-    }
     
-    public Persona(String nombre, String cedula, boolean carnet) {
-        this.nombre = nombre;
-        this.cedula = cedula;
-        this.carnet = carnet;
+    //Constructores
+    public Persona() {
     }
 
-    public Persona(String nombre, String cedula, boolean carnet, String rol) {
+    public Persona(String nombre, String cedula, boolean carnet, String rol, LocalTime horaEntrada, LocalTime horaSalida) {
+        this.nombre = "Juan";
+        this.cedula = "1065478956";
+        this.carnet = true;
+        this.rol = "admin";
+        this.horaEntrada = LocalTime.now();
+        this.horaSalida = LocalTime.now();
+        this.usename = "admin";
+        this.password = "root";
+    }
+
+    public Persona(String id, String nombre, String cedula, boolean carnet, String rol, LocalTime horaEntrada, LocalTime horaSalida) {
+        this.id = id;
         this.nombre = nombre;
         this.cedula = cedula;
         this.carnet = carnet;
         this.rol = rol;
-    }
-
-    public Persona(String id, String nombre, String cedula) {
-        this.id = id;
-        this.nombre = nombre;
-        this.cedula = cedula;
+        this.horaEntrada = horaEntrada;
+        this.horaSalida = horaSalida;
     }
     
+    //Métodos Getter and Setter
     public String getId() {
         return id;
     }
