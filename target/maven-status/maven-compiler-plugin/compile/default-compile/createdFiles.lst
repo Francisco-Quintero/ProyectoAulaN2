@@ -19,6 +19,9 @@ com\mycompany\mavenproject1\persistencia\ListaPersona.class
 com\mycompany\mavenproject1\logica\LogicaListaVehiculo.class
 com\mycompany\mavenproject1\App.class
 com\mycompany\mavenproject1\InicioController.class
+com\mycompany\mavenproject1\entidades\Usuario.class
+com\mycompany\mavenproject1\logica\Utility.class
+com\mycompany\mavenproject1\logica\Login.class
 com\mycompany\mavenproject1\persistencia\IPersona.class
 com\mycompany\mavenproject1\persistencia\ListaVehiculo.class
 com\mycompany\mavenproject1\persistencia\ListaRegistro.class

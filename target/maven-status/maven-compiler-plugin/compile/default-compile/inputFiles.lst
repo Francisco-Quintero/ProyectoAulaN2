@@ -4,6 +4,7 @@ C:\Users\franc\OneDrive\Documentos\NetBeansProjects\mavenproject1\ProyectoAulaN2
 C:\Users\franc\OneDrive\Documentos\NetBeansProjects\mavenproject1\ProyectoAulaN2\src\main\java\com\mycompany\mavenproject1\logica\LogicaListaZona.java
 C:\Users\franc\OneDrive\Documentos\NetBeansProjects\mavenproject1\ProyectoAulaN2\src\main\java\com\mycompany\mavenproject1\persistencia\ListaPersona.java
 C:\Users\franc\OneDrive\Documentos\NetBeansProjects\mavenproject1\ProyectoAulaN2\src\main\java\com\mycompany\mavenproject1\entidades\Zona.java
+C:\Users\franc\OneDrive\Documentos\NetBeansProjects\mavenproject1\ProyectoAulaN2\src\main\java\com\mycompany\mavenproject1\logica\Utility.java
 C:\Users\franc\OneDrive\Documentos\NetBeansProjects\mavenproject1\ProyectoAulaN2\src\main\java\com\mycompany\mavenproject1\persistencia\ListaZona.java
 C:\Users\franc\OneDrive\Documentos\NetBeansProjects\mavenproject1\ProyectoAulaN2\src\main\java\com\mycompany\mavenproject1\Zona2Controller.java
 C:\Users\franc\OneDrive\Documentos\NetBeansProjects\mavenproject1\ProyectoAulaN2\src\main\java\com\mycompany\mavenproject1\logica\LogicaListaVehiculo.java
@@ -26,8 +27,10 @@ C:\Users\franc\OneDrive\Documentos\NetBeansProjects\mavenproject1\ProyectoAulaN2
 C:\Users\franc\OneDrive\Documentos\NetBeansProjects\mavenproject1\ProyectoAulaN2\src\main\java\com\mycompany\mavenproject1\PrimaryController.java
 C:\Users\franc\OneDrive\Documentos\NetBeansProjects\mavenproject1\ProyectoAulaN2\src\main\java\com\mycompany\mavenproject1\entidades\Docente.java
 C:\Users\franc\OneDrive\Documentos\NetBeansProjects\mavenproject1\ProyectoAulaN2\src\main\java\com\mycompany\mavenproject1\persistencia\ListaVehiculo.java
+C:\Users\franc\OneDrive\Documentos\NetBeansProjects\mavenproject1\ProyectoAulaN2\src\main\java\com\mycompany\mavenproject1\entidades\Usuario.java
 C:\Users\franc\OneDrive\Documentos\NetBeansProjects\mavenproject1\ProyectoAulaN2\src\main\java\com\mycompany\mavenproject1\logica\LogicaListaRegistro.java
 C:\Users\franc\OneDrive\Documentos\NetBeansProjects\mavenproject1\ProyectoAulaN2\src\main\java\com\mycompany\mavenproject1\persistencia\IVehiculo.java
 C:\Users\franc\OneDrive\Documentos\NetBeansProjects\mavenproject1\ProyectoAulaN2\src\main\java\com\mycompany\mavenproject1\Zona1Controller.java
 C:\Users\franc\OneDrive\Documentos\NetBeansProjects\mavenproject1\ProyectoAulaN2\src\main\java\com\mycompany\mavenproject1\persistencia\ListaRegistro.java
+C:\Users\franc\OneDrive\Documentos\NetBeansProjects\mavenproject1\ProyectoAulaN2\src\main\java\com\mycompany\mavenproject1\logica\Login.java
 C:\Users\franc\OneDrive\Documentos\NetBeansProjects\mavenproject1\ProyectoAulaN2\src\main\java\com\mycompany\mavenproject1\persistencia\IPersona.java
