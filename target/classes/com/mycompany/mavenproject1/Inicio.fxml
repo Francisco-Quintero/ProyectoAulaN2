@@ -16,7 +16,7 @@
             <Image url="@imagenes/UPC-SABANAS1-1.jpg" />
          </image>
       </ImageView>
-      <Button fx:id="btnRegistrar" alignment="CENTER" layoutX="468.0" layoutY="256.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="276.0" style="-fx-background-color: #F7FF57;" text="REGISTRAR">
+      <Button fx:id="btnRegistrar" alignment="CENTER" layoutX="468.0" layoutY="256.0" mnemonicParsing="false" onAction="#clickRegistrar" onDragDetected="#clickRegistrar" prefHeight="58.0" prefWidth="276.0" style="-fx-background-color: #F7FF57;" text="REGISTRAR">
          <opaqueInsets>
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
          </opaqueInsets>
@@ -43,7 +43,7 @@
             <Image url="@imagenes/6836-removebg-preview.png" />
          </image>
       </ImageView>
-      <Button fx:id="btnConsultar" alignment="CENTER" layoutX="468.0" layoutY="153.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="276.0" style="-fx-background-color: #F7FF57;" text="CONSULTAR">
+      <Button fx:id="btnConsultar" alignment="CENTER" layoutX="468.0" layoutY="153.0" mnemonicParsing="false" onAction="#clickConsultar" onDragDetected="#clickConsultar" prefHeight="58.0" prefWidth="276.0" style="-fx-background-color: #F7FF57;" text="CONSULTAR">
          <opaqueInsets>
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
          </opaqueInsets>
